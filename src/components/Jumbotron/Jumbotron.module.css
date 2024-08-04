@@ -1,0 +1,23 @@
+.jumbotron {
+    height: 75vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.image {
+    background-image: url('./PXL_20240724_185808570.PANO.jpg');
+    height: 100%;
+    width: 300%;
+    background-size: contain;
+    background-repeat: repeat-x;
+    animation: panorama 10s linear infinite;
+}
+
+@keyframes panorama {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-62.15%));
+    }
+}
