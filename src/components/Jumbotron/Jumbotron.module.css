@@ -1,16 +1,28 @@
 .jumbotron {
-    height: 75vh;
+    height: 100vh;
     width: 100%;
     overflow: hidden;
+    padding-top: 110px;
+}
+
+.header {
+    height: 0;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    color: var(--black);
+    font-size: 4rem;
+    text-shadow: 0 0 10px var(--main-color);
+    z-index: 1;
 }
 
 .image {
     background-image: url('./PXL_20240724_185808570.PANO.jpg');
     height: 100%;
-    width: 300%;
-    background-size: contain;
+    width: 400%;
+    background-size: auto 100%;
     background-repeat: repeat-x;
-    animation: panorama 10s linear infinite;
+    animation: panorama 240s linear infinite;
 }
 
 @keyframes panorama {
@@ -18,6 +30,13 @@
         transform: translateX(0);
     }
     100% {
-        transform: translateX(calc(-62.15%));
+        transform: translateX(-62.85%);
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .header {
+        font-size: 3rem;
     }
 }

@@ -1,1 +1,12 @@
+:root {
+    --main-color: #F5F5DC;
+    --blue: #0E2E59;
+    --red: #FF0E2E;
+    --black: #2C2C2C;
+    --yellow: #F4C430;
+}
 
+* {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+}
