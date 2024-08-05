@@ -1,0 +1,15 @@
+.container {
+    background-color: var(--black);
+    color: var(--main-color);
+    text-align: center;
+    padding: 1rem;
+    margin: .5rem;
+}
+
+.rating {
+    color: var(--yellow);
+}
+
+.review {
+    font-style: italic;
+}
