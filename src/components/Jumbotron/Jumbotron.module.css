@@ -9,8 +9,10 @@
     position: relative;
     top: 50%;
     color: var(--black);
+    font-family: 'Bebas Neue', sans-serif;
     font-size: 4rem;
-    text-shadow: 0 0 10px var(--main-color);
+    letter-spacing: .2rem;
+    text-shadow: 0 0 15px var(--main-color);
     z-index: 1;
 }
 

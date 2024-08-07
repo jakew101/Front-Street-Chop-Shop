@@ -31,12 +31,12 @@
 @media only screen and (max-width: 768px) {
     .aboutContainer {
         flex-direction: column;
-        font-size: .8rem;
     }
 
     .paragraph {
         position: static;
         width: 100%;
+        font-size: 1rem;
     }
 
     .aboutContainer img {

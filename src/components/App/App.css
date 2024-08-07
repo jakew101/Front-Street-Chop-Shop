@@ -4,10 +4,12 @@
     --red: #FF0E2E;
     --black: #2C2C2C;
     --yellow: #F4C430;
+    --brown: #8B4513;
+    --green: #2B3D33;
 }
 
 * {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald', 'Franklin Gothic', sans-serif;
     letter-spacing: 1px;
     scroll-behavior: smooth;
 }
