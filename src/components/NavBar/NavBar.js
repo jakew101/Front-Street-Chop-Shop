@@ -8,8 +8,8 @@ const NavBar = () => {
             <ul>
                 <a href="#"><li>Home</li></a>
                 <a href="#about"><li>About</li></a>
-                <a href="#services"><li>Services</li></a>
                 <a href="#location"><li>Location</li></a>
+                <a href="#hours"><li>Hours</li></a>
             </ul>
         </div>
     );
