@@ -1,5 +1,7 @@
 import styles from './Review.module.css';
 
+
+// Review component passing in props from ReviewList.js
 const Review = ({ review }) => {
     return (
         <div className={styles.container}>

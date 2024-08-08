@@ -3,7 +3,7 @@ import styles from './ReviewList.module.css';
 import Review from '../Review/Review';
 
 
-
+// ReviewList component passing in props from map.js
 const ReviewList = ({ reviews }) => {
 
 
