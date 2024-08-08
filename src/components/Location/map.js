@@ -58,6 +58,7 @@ function Location() {
           if (status === window.google.maps.places.PlacesServiceStatus.OK) {
             setOpeninghours(placeDetails.opening_hours);
             console.log(placeDetails.opening_hours);
+            // filter reviews with rating >= 4 and store in filteredReviews (will only return 5 reviews from the api)
             const filteredReviews = placeDetails.reviews.filter((review) => review.rating >= 4);
             setReviews(filteredReviews);
             console.log(filteredReviews);
