@@ -12,8 +12,7 @@
    REACT_APP_GOOGLE_MAPS_API_KEY=AIzaSyAslNnSnCZIlgiOjzE-LiWk9spDveZv4u4
    ```
 
-5. Replace `your-google-maps-api-key-here` with your actual Google Maps API key.
-6. Run the project using `npm start`.
+5. Run the project using `npm start`.
 
 
 
