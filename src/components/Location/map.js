@@ -77,7 +77,7 @@ function Location() {
   return (
     <div>
     <LoadScript
-      googleMapsApiKey={"AIzaSyAslNnSnCZIlgiOjzE-LiWk9spDveZv4u4"}
+      googleMapsApiKey={process.env.REACT_APP_GOOGLE_MAPS_API_KEY}
       libraries={libraries}
     >
       <GoogleMap
