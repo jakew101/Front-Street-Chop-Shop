@@ -1,4 +1,4 @@
-import apiKey from '../../api';
+
 import { useState, useRef, useCallback } from 'react';
 import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api';
 import ReviewList from '../ReviewList/ReviewList';
@@ -77,7 +77,7 @@ function Location() {
   return (
     <div>
     <LoadScript
-      googleMapsApiKey={apiKey}
+      googleMapsApiKey={"AIzaSyAslNnSnCZIlgiOjzE-LiWk9spDveZv4u4"}
       libraries={libraries}
     >
       <GoogleMap
