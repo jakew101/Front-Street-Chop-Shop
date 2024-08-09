@@ -1,5 +1,8 @@
 # Front Street Chop Shop
 
+## Steps to Run
+Clone the repository -> In the project directory run npm install to get dependencies -> run npm start
+
 
 ## Summary
 Landing page for Front Street Chop Shop, a barbershop (with currently limited web presence) located in New Richmond, OH.
