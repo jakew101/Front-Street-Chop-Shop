@@ -58,7 +58,15 @@
 }
 
 @media only screen and (max-width: 768px) {
+    .navbar {
+        height: 125px;
+    }
+
     .navbar ul {
-        font-size: .8rem;
+        font-size: .9rem;
+    }
+
+    .navbar a {
+        padding: 0 10px;
     }
 }
