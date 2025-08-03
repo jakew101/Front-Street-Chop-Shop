@@ -8,7 +8,7 @@
 4. Add the following to your `.env` file:
 
    ```env
-   REACT_APP_GOOGLE_MAPS_API_KEY=AIzaSyAslNnSnCZIlgiOjzE-LiWk9spDveZv4u4
+   REACT_APP_GOOGLE_MAPS_API_KEY=xxx
    ```
 
 5. Run the project using `npm start`.
